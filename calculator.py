@@ -117,7 +117,7 @@ dropdown["menu"].config(bg=CARD_COLOR, fg=TEXT_COLOR, font=FONT_TEXT)
 dropdown.pack(pady=15)
 
 
-# Blutdruck
+
 blutdruck_frame = create_card_frame(root)
 
 tk.Label(blutdruck_frame, text="Systolisch:", bg=CARD_COLOR, fg=TEXT_COLOR, font=FONT_TEXT).pack(pady=5)
@@ -135,7 +135,7 @@ blutdruck_ergebnis = tk.Label(blutdruck_frame, text="", bg=CARD_COLOR, fg=TEXT_C
 blutdruck_ergebnis.pack()
 
 
-# MAD
+
 mad_frame = create_card_frame(root)
 
 tk.Label(mad_frame, text="Systolisch:", bg=CARD_COLOR, fg=TEXT_COLOR, font=FONT_TEXT).pack(pady=5)
@@ -153,7 +153,7 @@ mad_ergebnis = tk.Label(mad_frame, text="", bg=CARD_COLOR, fg=TEXT_COLOR, font=F
 mad_ergebnis.pack()
 
 
-# Dipping
+
 dipping_frame = create_card_frame(root)
 
 tk.Label(dipping_frame, text="Tag-Blutdruck:", bg=CARD_COLOR, fg=TEXT_COLOR, font=FONT_TEXT).pack(pady=5)
